@@ -19,9 +19,10 @@ formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
 
-class GrabFoodScraper():
+class GrabFoodScraper(threading.Thread):
     def __init__(self, url, location, proxies=None):
         # Initialize GrabFoodScraper object with URL, location, and optional proxies
+        threading.Thread.__init__(self) 
         self.url = url
         self.location = location
         self.proxies = proxies

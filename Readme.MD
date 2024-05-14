@@ -92,7 +92,7 @@ Column: Restaurant Delivery Time, Null: 0, Non-null: 277
 Column: Restaurant Distance, Null: 0, Non-null: 277
 Column: Discount, Null: 248, Non-null: 29
 Column: Promo, Null: 0, Non-null: 277
-Column: Images, Null: 38, Non-null: 239
+Column: Images, Null: 0, Non-null: 277
 ```
 
 This report provides information about the total number of records extracted and the null/non-null statistics for each column in the extracted data. It can be used to analyze the data quality and identify any missing or incomplete values.
