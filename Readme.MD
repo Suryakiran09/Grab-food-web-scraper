@@ -111,6 +111,10 @@ To address this issue, the application implements a scrolling mechanism that scr
 
 Another challenge encountered was handling timeouts and exceptions when interacting with the website. Sometimes, certain elements on the page were not immediately available or took longer to load, causing the application to throw exceptions or timeout errors.
 
+#### Solution/Approach:
+
+To mitigate this issue, the application incorporates exception handling and timeouts. The code uses the WebDriverWait class from Selenium to wait for specific elements to be present or clickable within a specified timeout period. If the timeout is exceeded, the code gracefully handles the exception and proceeds with the scraping process.
+
 ## Future Enhancements
 
 ### Error Handling and Recovery
@@ -123,9 +127,6 @@ Another challenge encountered was handling timeouts and exceptions when interact
 - **GUI Application**: Develop a graphical user interface (GUI) for the scraper, providing users with a more intuitive and user-friendly way to interact with the application, configure scraping parameters, and view the extracted data.
 - **Interactive Reports**: Generate interactive reports or dashboards using tools like Dash or Streamlit to allow users to explore and analyze the extracted data in real-time.
 
-#### Solution/Approach:
-
-To mitigate this issue, the application incorporates exception handling and timeouts. The code uses the WebDriverWait class from Selenium to wait for specific elements to be present or clickable within a specified timeout period. If the timeout is exceeded, the code gracefully handles the exception and proceeds with the scraping process.
 
 ## Steps to Execute the Code Locally
 
