@@ -152,9 +152,8 @@ python main.py
 
 7. Check the log file `grab_food_scraper.log` for any relevant information or errors during the execution.
 
-!!!Warning: Delay for Image Loading
-#### It's important to note that a delay of 25 seconds has been added for image loading please open the website. This delay
+## `Delay for Image Loading`
+### It's important to note that a delay of 25 seconds has been added for image loading please open the website. This delay
 
-
-!!!Warning: Location Extraction
-#### I have extracted the locations also for the particular restaurants but extracted only for some restaurants didnt added it into the main code it is added in the main.ipynb file.
+## `Location Extraction`
+### I have extracted the locations also for the particular restaurants but extracted only for some restaurants didnt added it into the main code it is added in the main.ipynb file.
