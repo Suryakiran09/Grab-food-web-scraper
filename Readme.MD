@@ -1,5 +1,8 @@
 # Grab Food Scraper Documentation
 
+### GITHUB 
+```https://github.com/Suryakiran09/Grab-food-web-scraper.git ```
+
 ## Overview
 
 The Grab Food Scraper is a Python application designed to extract restaurant data from the Grab Food website (https://food.grab.com/sg/en) using web scraping techniques. The application utilizes the Selenium and BeautifulSoup libraries to automate the web browsing process, navigate to the desired location, and extract relevant information about restaurants, such as their names, cuisines, ratings, delivery times, distances, discounts, promotions, and images.
@@ -22,6 +25,7 @@ To run the Grab Food Scraper, the following prerequisites must be met:
   - Selenium
   - BeautifulSoup
   - Pandas
+  - requests
 - Chrome WebDriver (compatible with your Chrome version) installed and available in the system's PATH
 
 ## Installation
@@ -30,7 +34,7 @@ To run the Grab Food Scraper, the following prerequisites must be met:
 2. Install the required Python libraries using pip:
 
 ```shell
-pip install selenium beautifulsoup4 pandas
+pip install selenium beautifulsoup4 pandas requests
 ```
 
 3. Download the Chrome WebDriver compatible with your Chrome version and add it to your system's PATH, or update the code to specify the path to the WebDriver executable.
@@ -134,7 +138,7 @@ To mitigate this issue, the application incorporates exception handling and time
 2. Install the required Python libraries using pip:
 
 ```shell
-pip install selenium beautifulsoup4 pandas
+pip install selenium beautifulsoup4 pandas requests
 ```
 
 3. Download the Chrome WebDriver compatible with your Chrome version and add it to your system's PATH, or update the code to specify the path to the WebDriver executable.
@@ -149,4 +153,8 @@ python main.py
 7. Check the log file `grab_food_scraper.log` for any relevant information or errors during the execution.
 
 !!!Warning: Delay for Image Loading
-It's important to note that a delay of 25 seconds has been added for image loading please open the website. This delay
+#### It's important to note that a delay of 25 seconds has been added for image loading please open the website. This delay
+
+
+!!!Warning: Location Extraction
+#### I have extracted the locations also for the particular restaurants but extracted only for some restaurants didnt added it into the main code it is added in the main.ipynb file.
